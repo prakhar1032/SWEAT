@@ -1,2 +1,2 @@
-com/sevenminuteworkout/BuildConfig.java
- com.sevenminuteworkout.BuildConfig
+com/SWEAT/BuildConfig.java
+ com.SWEAT.BuildConfig
