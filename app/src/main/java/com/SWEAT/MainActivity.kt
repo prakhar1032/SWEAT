@@ -16,9 +16,8 @@ class MainActivity : AppCompatActivity() {
         // This is used to align the xml view to this class
         setContentView(R.layout.activity_main)
 
-        // Click event for start Button which we have created in XML.
-        llStart.setOnClickListener {
-            val intent = Intent(this, ExerciseActivity::class.java)
+        dashboard.setOnClickListener {
+            val intent = Intent(this,Dashboard::class.java)
             startActivity(intent)
         }
 

@@ -19,6 +19,15 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.SWEAT.Dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.SWEAT.splashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
             android:name="com.SWEAT.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
@@ -33,27 +42,24 @@
             android:name="com.SWEAT.ExerciseActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
         <!--
-        This tag is already added by default when you create an activity along with the layout file.
+This tag is already added by default when you create an activity along with the layout file.
         You just need add some extra attribute as per requirement.
         -->
         <activity
             android:name="com.SWEAT.FinishActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
         <!--
-        This tag is already added by default when you create an activity along with the layout file.
+This tag is already added by default when you create an activity along with the layout file.
         You just need add some extra attribute as per requirement.
         -->
         <activity
             android:name="com.SWEAT.BMIActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
         <!--
-        This tag is already added by default when you create an activity along with the layout file.
+This tag is already added by default when you create an activity along with the layout file.
         You just need add some extra attribute as per requirement.
         -->
         <activity

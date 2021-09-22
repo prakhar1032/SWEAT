@@ -11,11 +11,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Dashboard"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
+
         <activity
-            android:name="com.SWEAT.MainActivity"
+            android:name=".splashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+
+        <activity
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,28 +36,31 @@
         </activity>
 
         <activity
-            android:name="com.SWEAT.ExerciseActivity"
+            android:name=".ExerciseActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
-        <!--This tag is already added by default when you create an activity along with the layout file.
-        You just need add some extra attribute as per requirement.-->
+        <!--
+This tag is already added by default when you create an activity along with the layout file.
+        You just need add some extra attribute as per requirement.
+        -->
         <activity
-            android:name="com.SWEAT.FinishActivity"
+            android:name=".FinishActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
-        <!--This tag is already added by default when you create an activity along with the layout file.
-        You just need add some extra attribute as per requirement.-->
+        <!--
+This tag is already added by default when you create an activity along with the layout file.
+        You just need add some extra attribute as per requirement.
+        -->
         <activity
-            android:name="com.SWEAT.BMIActivity"
+            android:name=".BMIActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
-        <!--This tag is already added by default when you create an activity along with the layout file.
-        You just need add some extra attribute as per requirement.-->
+        <!--
+This tag is already added by default when you create an activity along with the layout file.
+        You just need add some extra attribute as per requirement.
+        -->
         <activity
-            android:name="com.SWEAT.HistoryActivity"
+            android:name=".HistoryActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>
