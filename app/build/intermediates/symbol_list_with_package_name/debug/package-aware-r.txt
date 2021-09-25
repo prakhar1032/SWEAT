@@ -1177,6 +1177,7 @@ id coordinator
 id custom
 id customPanel
 id dashboard
+id dashboard2
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1441,7 +1442,10 @@ layout activity_dashboard
 layout activity_exercise
 layout activity_finish
 layout activity_history
+layout activity_intro
 layout activity_main
+layout activity_sign_in
+layout activity_sign_up
 layout activity_splash_screen
 layout custom_dialog
 layout design_bottom_navigation_item

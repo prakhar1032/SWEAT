@@ -12,12 +12,12 @@
         "source": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\src\\main\\res\\drawable-mdpi\\ic_calendar.png"
     },
     {
-        "merged": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_side_plank.png.flat",
         "source": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\src\\main\\res\\drawable\\ic_side_plank.png"
+    },
+    {
+        "merged": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -116,6 +116,10 @@
         "source": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\src\\main\\res\\drawable\\ic_high_knees_running_in_place.png"
     },
     {
+        "merged": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in.xml.flat",
+        "source": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
+    },
+    {
         "merged": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_done.png.flat",
         "source": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_done.png"
     },
@@ -162,6 +166,14 @@
     {
         "merged": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img_main_page.png.flat",
         "source": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\src\\main\\res\\drawable\\img_main_page.png"
+    },
+    {
+        "merged": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_intro.xml.flat",
+        "source": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\src\\main\\res\\layout\\activity_intro.xml"
     },
     {
         "merged": "D:\\WorkoutApp\\7MinutesWorkout_v23\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_splashscreen.png.flat",

@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,Dashboard::class.java)
             startActivity(intent)
         }
+        dashboard2.setOnClickListener {
+            val intent = Intent(this,Dashboard::class.java)
+            startActivity(intent)
+        }
 
         llBMI.setOnClickListener {
             // Launching the BMI Activity
