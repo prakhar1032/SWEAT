@@ -11,7 +11,7 @@
 9-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:6:5-64:19
+11-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:6:5-77:19
 12        android:allowBackup="false"
 12-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:7:9-36
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -28,96 +28,113 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:12:9-40
-21        <activity android:name="com.SWEAT.SignUp" />
-21-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:14:9-53
-21-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:14:19-41
-22        <activity android:name="com.SWEAT.SignIn" />
-22-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:15:9-44
-22-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:15:19-41
-23        <activity android:name="com.SWEAT.Intro" />
-23-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:16:9-43
-23-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:16:19-40
-24        <activity
-24-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:17:9-26:20
-25            android:name="com.SWEAT.splashScreen"
-25-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:18:13-41
-26            android:screenOrientation="portrait"
-26-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:19:13-49
-27            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
-27-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:20:13-80
-28            <intent-filter>
-28-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:21:13-25:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:22:17-69
-29-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:22:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:24:17-77
-31-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:24:27-74
-32            </intent-filter>
-33        </activity>
-34        <activity
-34-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:27:9-31:72
-35            android:name="com.SWEAT.MainActivity"
-35-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:28:13-41
-36            android:label="@string/app_name"
-36-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:29:13-45
-37            android:screenOrientation="portrait"
-37-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:30:13-49
-38            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-38-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:31:13-69
-39        <activity
-39-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:32:9-35:72
-40            android:name="com.SWEAT.Dashboard"
-40-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:33:13-38
-41            android:screenOrientation="portrait"
-41-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:34:13-49
-42            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-42-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:35:13-69
-43        <activity
-43-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:36:9-39:72
-44            android:name="com.SWEAT.ExerciseActivity"
-44-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:37:13-45
-45            android:screenOrientation="portrait"
-45-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:38:13-49
-46            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-46-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:39:13-69
-47        <!--
-48This tag is already added by default when you create an activity along with the layout file.
-49        You just need add some extra attribute as per requirement.
-50        -->
-51        <activity
-51-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:44:9-47:72
-52            android:name="com.SWEAT.FinishActivity"
-52-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:45:13-43
-53            android:screenOrientation="portrait"
-53-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:46:13-49
-54            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-54-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:47:13-69
-55        <!--
-56This tag is already added by default when you create an activity along with the layout file.
-57        You just need add some extra attribute as per requirement.
-58        -->
-59        <activity
-59-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:52:9-55:72
-60            android:name="com.SWEAT.BMIActivity"
-60-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:53:13-40
-61            android:screenOrientation="portrait"
-61-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:54:13-49
-62            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-62-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:55:13-69
-63        <!--
-64This tag is already added by default when you create an activity along with the layout file.
-65        You just need add some extra attribute as per requirement.
-66        -->
-67        <activity
-67-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:60:9-63:72
-68            android:name="com.SWEAT.HistoryActivity"
-68-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:61:13-44
-69            android:screenOrientation="portrait"
-69-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:62:13-49
-70            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-70-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:63:13-69
-71    </application>
-72
-73</manifest>
+21        <activity
+21-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:14:9-16:71
+22            android:name="com.SWEAT.SignUp"
+22-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:14:19-41
+23            android:screenOrientation="portrait"
+23-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:15:13-49
+24            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+24-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:16:13-69
+25        <activity
+25-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:18:9-22:20
+26            android:name="com.SWEAT.SignIn"
+26-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:18:19-41
+27            android:screenOrientation="portrait"
+27-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:19:13-49
+28            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+28-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:20:13-69
+29        </activity>
+30        <activity
+30-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:24:9-32:20
+31            android:name="com.SWEAT.Intro"
+31-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:24:19-40
+32            android:screenOrientation="portrait"
+32-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:25:13-49
+33            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+33-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:26:13-69
+34            <intent-filter>
+34-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:27:13-31:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:28:17-69
+35-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:28:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:30:17-77
+37-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:30:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:34:9-39:20
+41            android:name="com.SWEAT.splashScreen"
+41-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:35:13-41
+42            android:screenOrientation="portrait"
+42-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:36:13-49
+43            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+43-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:37:13-80
+44        </activity>
+45        <activity
+45-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:40:9-44:72
+46            android:name="com.SWEAT.MainActivity"
+46-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:41:13-41
+47            android:label="@string/app_name"
+47-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:42:13-45
+48            android:screenOrientation="portrait"
+48-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:43:13-49
+49            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+49-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:44:13-69
+50        <activity
+50-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:45:9-48:72
+51            android:name="com.SWEAT.Dashboard"
+51-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:46:13-38
+52            android:screenOrientation="portrait"
+52-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:47:13-49
+53            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+53-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:48:13-69
+54        <activity
+54-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:49:9-52:72
+55            android:name="com.SWEAT.ExerciseActivity"
+55-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:50:13-45
+56            android:screenOrientation="portrait"
+56-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:51:13-49
+57            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+57-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:52:13-69
+58        <!--
+59This tag is already added by default when you create an activity along with the layout file.
+60        You just need add some extra attribute as per requirement.
+61        -->
+62        <activity
+62-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:57:9-60:72
+63            android:name="com.SWEAT.FinishActivity"
+63-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:58:13-43
+64            android:screenOrientation="portrait"
+64-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:59:13-49
+65            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+65-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:60:13-69
+66        <!--
+67This tag is already added by default when you create an activity along with the layout file.
+68        You just need add some extra attribute as per requirement.
+69        -->
+70        <activity
+70-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:65:9-68:72
+71            android:name="com.SWEAT.BMIActivity"
+71-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:66:13-40
+72            android:screenOrientation="portrait"
+72-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:67:13-49
+73            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+73-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:68:13-69
+74        <!--
+75This tag is already added by default when you create an activity along with the layout file.
+76        You just need add some extra attribute as per requirement.
+77        -->
+78        <activity
+78-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:73:9-76:72
+79            android:name="com.SWEAT.HistoryActivity"
+79-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:74:13-44
+80            android:screenOrientation="portrait"
+80-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:75:13-49
+81            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+81-->D:\WorkoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:76:13-69
+82    </application>
+83
+84</manifest>
